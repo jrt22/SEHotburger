@@ -17,4 +17,4 @@ RUN chmod +x entrypoint.sh
 COPY . .
 EXPOSE 80
 
-CMD [ "git", "app", "service.js" ]
+CMD [ "git", "app", "app.js" ]
