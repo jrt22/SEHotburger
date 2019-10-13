@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+        git:
+                image: git_node_project_docker_compose:1.0
+                container_name: git_node_project_docker_compose:1.0
+                build: .
+                command: git -C /build clone https://github.com/jrt22/SEManagementProject1.git
+                volumes:
+                - ./build:/build

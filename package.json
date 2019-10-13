@@ -1,0 +1,19 @@
+ "name": "project-1",
+        "version": "1.0.0",
+        "description": "environment test",
+        "author": "James Tow",
+        "main": "app.js",
+        "license": "ISC",
+        "repository": {
+                "type": "git",
+                "url": "git@github.com:jrt22/SEManagementProject1.git",
+        },
+        "bug": {
+                "url": "https://github.com/jrt22/SEManagementProject1/issues"
+        },
+        "dependencies": {
+                "ejs": "^2.7.1",
+                "express": "^4.16.4",
+                "request": "^2.88.0"
+        }
+}
